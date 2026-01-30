@@ -1,0 +1,194 @@
+<!DOCTYPE HTML>
+<html lang="en" dir="ltr">
+	<head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
+		<meta charset="utf-8">
+
+		<title>Case grounding &mdash; wandering logic [tiny]</title>
+		
+		<link rel="stylesheet" type="text/css" href="https://cdn.writeas.net/css/text.ca07fd9.css" />
+		
+		<link rel="shortcut icon" href="../images/xQkSM0i1.ico" />
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		
+		<link rel="canonical" href="https://wandering-logic.writeas.com/case-grounding" />
+		<link rel="alternate" type="application/rss+xml" title="wandering logic &raquo; Feed" href="https://wandering-logic.writeas.com/feed/" />
+		<meta name="generator" content="Write.as">
+		<meta name="title" content="Case grounding &mdash; wandering logic">
+		<meta name="description" content="For jacks, most manufacturers these days use chrome ferrule PCB mounted Neutrik NMJ4HCD2 (Mono-switched) or NMJ6HCD2 (stereo-switched).  ...">
+		
+		<meta name="twitter:label1" value="Views">
+		<meta name="twitter:data1" value="6">
+		<link rel="author" href="https://write.as/wandering-logic/" />
+		<meta name="author" content="wandering logic" />
+		<meta itemprop="description" content="For jacks, most manufacturers these days use chrome ferrule PCB mounted Neutrik NMJ4HCD2 (Mono-switched) or NMJ6HCD2 (stereo-switched).  ...">
+		<meta itemprop="datePublished" content="2025-12-14" />
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:description" content="For jacks, most manufacturers these days use chrome ferrule PCB mounted Neutrik NMJ4HCD2 (Mono-switched) or NMJ6HCD2 (stereo-switched).  ...">
+		<meta name="twitter:title" content="Case grounding &mdash; wandering logic">
+		<meta name="twitter:image" content="../images/qVM3VAki.jpg">
+		<meta property="og:description" content="For jacks, most manufacturers these days use chrome ferrule PCB mounted Neutrik NMJ4HCD2 (Mono-switched) or NMJ6HCD2 (stereo-switched).  ..." />
+		<meta property="og:site_name" content="wandering logic" />
+		<meta property="og:type" content="article" />
+		<meta property="og:url" content="https://wandering-logic.writeas.com/case-grounding" />
+		<meta property="og:updated_time" content="2025-12-14T20:34:21Z" />
+		<meta property="article:published_time" content="2025-12-14T20:34:21Z">
+		
+		
+		
+			
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX", "output/HTML-CSS"],
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+      processEscapes: true
+    },
+    "HTML-CSS": { fonts: ["TeX"] }
+  });
+</script>
+<script type="text/javascript" src="https://cdn.writeas.net/js/mathjax/tex-svg-full.js" async></script>
+
+		
+
+	</head>
+	<body id="post" itemscope itemtype="http://schema.org/WebPage">
+		<header>
+			<h1 dir="ltr" id="blog-title"><a rel="author" href="/wandering-logic/" class="h-card p-author">wandering logic</a></h1>
+			
+			<nav>
+				</nav>
+			
+		</header>
+
+		
+
+		<article id="post-body" class="norm h-entry "><h2 id="title" class="p-name dated">Case grounding</h2><time class="dt-published" datetime="2025-12-14T20:34:21Z" pubdate itemprop="datePublished" content="2025-12-14 20:34:21 &#43;0000 UTC">December 14, 2025</time><div class="e-content"><p>For jacks, most manufacturers these days use chrome ferrule PCB mounted Neutrik NMJ4HCD2 (Mono-switched) or NMJ6HCD2 (stereo-switched).  The reason these are so widely used is that the ferrule screws in from the outside, so the fully assembled circuit board just drops into the case.<img src="../images/qVM3VAki.jpg" alt="Photo of unlidded Wampler Triumph.  A Neutrik NMJ6HCD2 jack sits inside the case and the ferrule threads into the jack through the whole in the side of the case." title="Neutrik NMJ6HCD2 jacks"/></p>
+
+<p>But we also want the case grounded to avoid static charge buildup, and that jack washer is plastic, thus insulating.  And of course we are using center-negative power, so the power jacks are also not grounding the case.  What to do?</p>
+
+<p>MXR just replaces the nice looking washer with a lock washer on both input and output and calls it a day:</p>
+
+<p><img src="../images/9lA14bPq.jpg" alt="Photo of an MXR Fat Sugar with the jack ferrule removed.  MXR uses lock washers under the ferrule instead of an insulating washer.  The lock washer scrapes through the powder coat making a connection from the case aluminum to the metal ferrule." title="MXR uses lock washers to ground the case"/></p>
+
+<p>Keeley uses Harwin SMT Multi-dimensional Spring Contacts:</p>
+
+<p><img src="../images/NoXYCT5y.jpg" alt="Photo of the Harwin S1941-46R multi-dimensional spring contact on the side of a Keeley Mini Katana circuit board." title="Keeley uses Harwin S1941-46R"/></p>
+
+<p>I believe that’s a S1941-46R, surface mount, 7.3mm tall with 1mm deflection.  Most of Harwin’s spring contacts are vertical only, the S19x1-46R series is the only horizontal contact I can find.</p>
+
+<p>I also found a <a href="https://www.reddit.com/r/diypedals/comments/14k61th/pogo_pins_are_a_massively_underrated_component" title="Reddit thread that recommends pogo pins for vertical contact">Reddit thread that recommends pogo pins for vertical contact</a>.</p>
+
+<p>The other option I’ve found for horizontal contact is Keystone battery clips.  Wampler uses what I believe is a Keystone 1021-1<img src="../images/Zbkcdxg7.jpg" alt="Photo of the side of the Wampler Triumph circuit board showing the Keystone 1021-1 battery clip Wampler uses.  The spring part of the clip extends past the edge of the board." title="Wampler uses Keystone 1021-1 battery clips"/></p>
+
+<p>Catalinbread is using the Keystone 629 battery contact, I think</p>
+
+<p><img src="../images/gRfmh5mu.jpg" alt="Photo of the side of a Catalinbread Formula 51 circuit board showing the spring of the Keystone 629 battery contact protruding pas the edge of the board." title="Catalinbread uses Keystone 629 battery contacts"/></p>
+
+<p>One I found that looks particularly appealing is Keystone 591:</p>
+
+<p><img src="../images/sselhumY.png" alt="Data sheet for the Keystone 591 battery clip.  The clip needs three 1.4mm diameter holes placed in an equilateral triangle the base of which is 8.89mm wide and then the third vertex is 3.05mm above the base." title="Keystone 591 battery clip"/></p>
+</div></article>
+
+		<footer>
+			Published with <a class="home pubd" href="https://write.as/?f=footer-blog">Write.as</a>
+			<p style="font-size: 0.9em;">Tiny-page version. <a href="https://wandering-logic.writeas.com/case-grounding">View full site</a></p>
+		</footer>
+	</body>
+
+	
+	
+	
+	
+	
+<script>
+  
+  addEventListener('DOMContentLoaded', function () {
+    var hlbaseUri = "https:\/\/cdn.writeas.net/js/";
+    var lb = document.querySelectorAll("code[class^='language-']");
+
+    
+    var aliasmap = {
+      "elisp"      : "lisp",
+      "emacs-lisp" : "lisp",
+      "c"          : "cpp",
+      "cc"         : "cpp",
+      "h"          : "cpp",
+      "c++"        : "cpp",
+      "h++"        : "cpp",
+      "hpp"        : "cpp",
+      "hh"         : "cpp",
+      "hxx"        : "cpp",
+      "cxx"        : "cpp",
+      "sh"         : "bash",
+      "js"         : "javascript",
+      "jsx"        : "javascript",
+      "html"       : "xml"
+    };
+
+    
+    function highlight(nodes) {
+      for (i=0; i < nodes.length; i++) {
+        hljs.highlightBlock(nodes[i]);
+      }
+    }
+
+    
+    function loadLanguages(uris, callback) {
+      uris.forEach(function(uri) {
+        var sc = document.createElement('script');
+        sc.src = uri;
+        sc.async = false; 
+        
+        if (uris.indexOf(uri) == uris.length-1) {
+          
+          
+          
+          sc.onload = callback;
+          sc.onerror = callback;
+        }
+        document.head.appendChild(sc);
+      });
+    }
+
+    
+    if (lb.length > 0) {
+      
+      var st = document.createElement('link');
+      st.rel = "stylesheet";
+      st.href = "https:\/\/cdn.writeas.net/css/lib/atom-one-light.min.css";
+      document.head.appendChild(st);
+
+      
+      var jss = [hlbaseUri + "highlight.min.js"];
+      
+      for (i=0; i < lb.length; i++) {
+        lang = lb[i].className.replace('language-','').toLowerCase();
+        
+        if (aliasmap[lang]) lang = aliasmap[lang];
+        lurl = hlbaseUri + "highlightjs/" + lang + ".min.js";
+        if (!jss.includes(lurl)) {
+          jss.push(lurl);
+        }
+      }
+      
+      loadLanguages(jss, () => {highlight(lb)});
+    }
+  });
+</script>
+
+	<script src="https://cdn.writeas.net/js/localdate.js"></script>
+	<script type="text/javascript">
+	
+		var http = new XMLHttpRequest();
+		var url = "/api/collections/wandering-logic/posts/7poph4xpgqytry19/stat";
+		http.open("POST", url, true);
+		http.setRequestHeader("Content-type", "application/json");
+		http.send();
+	
+	</script>
+
+	
+</html>
