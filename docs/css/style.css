@@ -54,7 +54,11 @@ th, td {
     font-variant-numeric: tabular-nums;
 }
 
-td:first-child, th:first-child {
+th {
+    text-align: center;
+}
+
+td {
     text-align: left;
 }
 
